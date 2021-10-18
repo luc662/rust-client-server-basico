@@ -1,0 +1,17 @@
+[package]
+name = "rust-client-server-basico"
+version = "0.1.0"
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+[[bin]]
+name = "00-client"
+path = "src/00_client.rs"
+
+[[bin]]
+name = "00-server"
+path = "src/00_server.rs"
+
